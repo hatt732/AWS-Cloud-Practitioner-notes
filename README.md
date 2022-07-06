@@ -58,16 +58,21 @@ Google Apps (Gmail), Dropbox, Zoom
 - Data transfer OUT of the Cloud
 
 ## AWS Global Infrastructure
+![image](https://user-images.githubusercontent.com/87024662/177540993-e9c05d3c-ab56-41e4-adbd-38a0fb6c29cb.png)
+
 - AWS Regions
+- 
 all around the world (us-east-1)
 cluster of data centers
 __Most AWS services are region-scoped__
 - AWS Availability Zones
+
 many availability zones (usually 3, min is 2, max is 6) ap-southeast-2a
 isolated from disasters
 connected with high bandwidth, ultra-low latency networking
 - AWS Data Centers
 - AWS Edge Locations / Points of Presence
+
 Content is delivered to end users with lower latency
 
 ## AWS Services Scope
