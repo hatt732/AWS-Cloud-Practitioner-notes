@@ -13,6 +13,8 @@
 - Private Cloud
 - Public Cloud
 - Hybrid Cloud
+![image](https://user-images.githubusercontent.com/87024662/177539153-f8ae8fc6-4277-4c06-9ad0-16183e4b4306.png)
+
 
 ## The Five Characteristics of Cloud Computing
 - On-demand self service
@@ -47,6 +49,8 @@ Heroku, Google App Engine (GCP), Windows Azure (Microsoft)
 - Software as a Service (SaaS)
 Many AWS services (ex: Rekognition for Machine Learning)
 Google Apps (Gmail), Dropbox, Zoom
+![image](https://user-images.githubusercontent.com/87024662/177539654-062f6a88-bcef-4166-ac5f-f73fa20144e8.png)
+
 
 ## Pricing of the Cloud
 - Compute
@@ -88,3 +92,10 @@ https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services
 
 ## Scalability Vs. Elasticity
 ![image](https://user-images.githubusercontent.com/87024662/177538768-560097a9-9dc2-492a-8793-d54c0333e694.png)
+
+## Cloud Computing Vs. Mobile Computing
+
+## Multi-tenancy
+![image](https://user-images.githubusercontent.com/87024662/177539855-9ac597c6-2dd1-4fb6-b90a-5efcc793b7fd.png)
+
+
