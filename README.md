@@ -77,8 +77,8 @@ WAF (Web Application Firewall)
 https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/
 
 ## Shared Responsibility Model
-- CUSTOMER = RESPONSIBILITY FOR THE SECURITY __IN__ THE CLOUD
-- AWS = RESPONSIBILITY FOR THE SECURITY __OF__ THE CLOUD
+- CUSTOMER = Responsibility for the security __IN__ the cloud
+- AWS = Responsibility for the security __OF__ the cloud
 
 ## AWS Acceptable Use Policy
 - No Illegal, Harmful, or Offensive Use or Content
