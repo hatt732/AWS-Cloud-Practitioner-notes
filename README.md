@@ -40,16 +40,17 @@
 - Agility
 
 ## Types of Cloud Computing
-- Infrastructure as a Service (IaaS)
-Amazon EC2 (on AWS)
-GCP, Azure, Rackspace, Digital Ocean, Linode
-- Platform as a Service (PaaS)
-Elastic Beanstalk (on AWS)
-Heroku, Google App Engine (GCP), Windows Azure (Microsoft)
-- Software as a Service (SaaS)
-Many AWS services (ex: Rekognition for Machine Learning)
-Google Apps (Gmail), Dropbox, Zoom
 ![image](https://user-images.githubusercontent.com/87024662/177539654-062f6a88-bcef-4166-ac5f-f73fa20144e8.png)
+
+- Infrastructure as a Service (IaaS)
+  - Amazon EC2 (on AWS)
+  - GCP, Azure, Rackspace, Digital Ocean, Linode
+- Platform as a Service (PaaS)
+  - Elastic Beanstalk (on AWS)
+  - Heroku, Google App Engine (GCP), Windows Azure (Microsoft)
+- Software as a Service (SaaS)
+  - Many AWS services (ex: Rekognition for Machine Learning)
+  - Google Apps (Gmail), Dropbox, Zoom
 
 
 ## Pricing of the Cloud
@@ -61,26 +62,23 @@ Google Apps (Gmail), Dropbox, Zoom
 ![image](https://user-images.githubusercontent.com/87024662/177540993-e9c05d3c-ab56-41e4-adbd-38a0fb6c29cb.png)
 
 - AWS Regions
-- 
-all around the world (us-east-1)
-cluster of data centers
-__Most AWS services are region-scoped__
+  - all around the world (us-east-1)
+  - cluster of data centers
+  - __Most AWS services are region-scoped__
 - AWS Availability Zones
-
-many availability zones (usually 3, min is 2, max is 6) ap-southeast-2a
-isolated from disasters
-connected with high bandwidth, ultra-low latency networking
+  - many availability zones (usually 3, min is 2, max is 6) ap-southeast-2a
+  - isolated from disasters
+  - connected with high bandwidth, ultra-low latency networking
 - AWS Data Centers
 - AWS Edge Locations / Points of Presence
-
-Content is delivered to end users with lower latency
+  - Content is delivered to end users with lower latency
 
 ## AWS Services Scope
 - Global Services
-Identity and Access Management (IAM)
-Route 53 (DNS service)
-CloudFront (Content Delivery Network)
-WAF (Web Application Firewall)
+  - Identity and Access Management (IAM)
+  - Route 53 (DNS service)
+  - CloudFront (Content Delivery Network)
+  - WAF (Web Application Firewall)
 - Region Services - Most AWS services
 
 https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/
