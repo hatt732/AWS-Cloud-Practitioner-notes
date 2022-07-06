@@ -85,3 +85,6 @@ https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services
 - No Security Violations
 - No Network Abuse
 - No E-Mail or Other Message Abuse
+
+## Scalability Vs. Elasticity
+![image](https://user-images.githubusercontent.com/87024662/177538768-560097a9-9dc2-492a-8793-d54c0333e694.png)
