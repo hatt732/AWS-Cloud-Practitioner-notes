@@ -73,6 +73,7 @@ Route 53 (DNS service)
 CloudFront (Content Delivery Network)
 WAF (Web Application Firewall)
 - Region Services - Most AWS services
+
 https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/
 
 ## Shared Responsibility Model
