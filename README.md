@@ -140,7 +140,7 @@ https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services
 ## IAM Policies inheritance
 <picture>
   <img alt="IAM Policies inheritance" 
-       src="https://user-images.githubusercontent.com/87024662/178901213-49114099-1555-4cc0-aea5-76aabaeec63b.png" 
+       src="https://user-images.githubusercontent.com/87024662/178901938-887607de-e990-4737-95e7-ee08c1fae7e1.png" 
        width=750px>
 </picture>
 
