@@ -13,8 +13,11 @@
 - Private Cloud
 - Public Cloud
 - Hybrid Cloud
-![image](https://user-images.githubusercontent.com/87024662/177539153-f8ae8fc6-4277-4c06-9ad0-16183e4b4306.png)
-
+<picture>
+  <img alt="The Deployment Models of the Cloud" 
+       src="https://user-images.githubusercontent.com/87024662/177539153-f8ae8fc6-4277-4c06-9ad0-16183e4b4306.png" 
+       width=750px>
+</picture>
 
 ## The Five Characteristics of Cloud Computing
 - On-demand self service
@@ -40,7 +43,11 @@
 - Agility
 
 ## Types of Cloud Computing
-![image](https://user-images.githubusercontent.com/87024662/177539654-062f6a88-bcef-4166-ac5f-f73fa20144e8.png)
+<picture>
+  <img alt="Types of Cloud Computing" 
+       src="https://user-images.githubusercontent.com/87024662/177539654-062f6a88-bcef-4166-ac5f-f73fa20144e8.png" 
+       width=750px>
+</picture>
 
 - Infrastructure as a Service (IaaS)
   - Amazon EC2 (on AWS)
@@ -94,16 +101,17 @@ https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services
 - No E-Mail or Other Message Abuse
 
 ## Scalability Vs. Elasticity
-![image](https://user-images.githubusercontent.com/87024662/177538768-560097a9-9dc2-492a-8793-d54c0333e694.png)
+<picture>
+  <img alt="Scalability Vs. Elasticity" 
+       src="https://user-images.githubusercontent.com/87024662/177538768-560097a9-9dc2-492a-8793-d54c0333e694.png" 
+       width=750px>
+</picture>
 
 ## Cloud Computing Vs. Mobile Computing
 
 ## Multi-tenancy
-![image](https://user-images.githubusercontent.com/87024662/177539855-9ac597c6-2dd1-4fb6-b90a-5efcc793b7fd.png)
-
-
 <picture>
-  <img alt="Shows an illustrated sun in light color mode and a moon with stars in dark color mode." 
+  <img alt="Multi-tenancy" 
        src="https://user-images.githubusercontent.com/87024662/177539855-9ac597c6-2dd1-4fb6-b90a-5efcc793b7fd.png" 
-       width=400px>
+       width=750px>
 </picture>
