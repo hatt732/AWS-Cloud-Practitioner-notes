@@ -126,14 +126,6 @@ https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services
 - JSON document that outlines permissions for users or groups
 ### Roles
 - For EC2 instances or AWS services
-
-IAM Policies inheritance
-<picture>
-  <img alt="IAM Policies inheritance" 
-       src="https://user-images.githubusercontent.com/87024662/178901213-49114099-1555-4cc0-aea5-76aabaeec63b.png" 
-       width=750px>
-</picture>
-
 ### Security
 - MFA + Password Policy
 ### AWS CLI
@@ -144,6 +136,14 @@ IAM Policies inheritance
 - Access AWS using the CLI or SDK
 ### Audit
 - IAM Credential Reports & IAM Access Advisor
+
+## IAM Policies inheritance
+<picture>
+  <img alt="IAM Policies inheritance" 
+       src="https://user-images.githubusercontent.com/87024662/178901213-49114099-1555-4cc0-aea5-76aabaeec63b.png" 
+       width=750px>
+</picture>
+
 
 ## IAM Guidelines & Best Practices
 - Don’t use the __root__ account except for AWS account setup
