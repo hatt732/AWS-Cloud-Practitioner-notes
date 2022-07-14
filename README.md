@@ -157,3 +157,27 @@ https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services
 - __Never share IAM users & Access Keys__
 
 # EC2 Section
+
+
+
+## EBS Vs. S3 Vs. EFS
+- EBS is a high-performance per-instance block storage system designed to act as storage for a single EC2 instance (most of the time)
+- EFS is a highly scalable file storage system designed to provide flexible storage for multiple EC2 instances
+- S3 is an object storage system, designed to provide archiving and data control options and to interface with other services beyond EC2. It’s also useful for storing static html pages and shared storage for applications
+<picture>
+  <img alt="IAM Policies inheritance" 
+       src="https://user-images.githubusercontent.com/87024662/178952472-85d09215-aec8-49f3-97e8-d0f9e4070d60.png" 
+       width=750px>
+</picture>
+
+### EBS (Elastic Block Store) vs Instance Store in AWS
+<picture>
+  <img alt="IAM Policies inheritance" 
+       src="https://user-images.githubusercontent.com/87024662/178956059-ae6fac61-6077-4887-938f-fa17d2ad1d9f.png" 
+       width=750px>
+</picture>
+
++ Amazon EFS Standard
++ Amazon EFS Standard-Infrequent Access (EFS Standard-IA)
++ Amazon EFS One Zone
++ Amazon EFS One Zone-Infrequent Access (EFS One Zone-IA)
