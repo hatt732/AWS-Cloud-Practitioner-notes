@@ -115,3 +115,45 @@ https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services
        src="https://user-images.githubusercontent.com/87024662/177539855-9ac597c6-2dd1-4fb6-b90a-5efcc793b7fd.png" 
        width=750px>
 </picture>
+
+# IAM Section
+
+### Users
+- Mapped to a physical user, has a password for AWS Console
+### Groups
+- Contains users only
+### Policies
+- JSON document that outlines permissions for users or groups
+### Roles
+- For EC2 instances or AWS services
+
+IAM Policies inheritance
+<picture>
+  <img alt="IAM Policies inheritance" 
+       src="https://user-images.githubusercontent.com/87024662/178901213-49114099-1555-4cc0-aea5-76aabaeec63b.png" 
+       width=750px>
+</picture>
+
+### Security
+- MFA + Password Policy
+### AWS CLI
+- Manage your AWS services using the command-line
+### AWS SDK
+- Manage your AWS services using a programming language
+### Access Keys
+- Access AWS using the CLI or SDK
+### Audit
+- IAM Credential Reports & IAM Access Advisor
+
+## IAM Guidelines & Best Practices
+- Don’t use the __root__ account except for AWS account setup
+- __One__ physical user = __One__ AWS user
+- __Assign users to groups__ and assign permissions to groups
+- Create a __strong password policy__
+- Use and enforce the use of __Multi Factor Authentication (MFA)__
+- Create and use __Roles__ for giving permissions to AWS services
+- Use Access Keys for Programmatic Access (CLI / SDK)
+- Audit permissions of your account with the IAM Credentials Report
+- __Never share IAM users & Access Keys__
+
+# EC2 Section
