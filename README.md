@@ -181,3 +181,58 @@ https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services
 + Amazon EFS Standard-Infrequent Access (EFS Standard-IA)
 + Amazon EFS One Zone
 + Amazon EFS One Zone-Infrequent Access (EFS One Zone-IA)
+
+
+# Database Section
+
+
+## Databases & Shared Responsibility on AWS
+- AWS offers use to manage different databases
+- Benefits include:
+  - Quick Provisioning, High Availability, Vertical and Horizontal Scaling
+  - Automated Backup & Restore, Operations, Upgrades
+  - Operating System Patching is handled by AWS
+  - Monitoring, alerting
+- Note: many databases technologies could be run on EC2, but you must handle yourself the resiliency, backup, patching, high availability, fault tolerance, scaling… 
+
+## AWS RDS
+- RDS stands for Relational Database Service
+- It’s a managed DB service for DB use SQL as a query language.
+
+### RDS Solution Architecture
+<picture>
+  <img alt="RDS Solution Architecture" 
+       src="https://user-images.githubusercontent.com/72691037/179142656-b1327907-bdee-4f8b-9143-e9cd24a04459.png" 
+       width=750px>
+</picture>
+
+### RDS Deployments
+- Read Replicas:
+  - Scale the read workload of your DB
+  - Can create up to 5 Read Replicas
+  - Data is only written to the main DB
+<picture>
+  <img alt="Read Replicas" 
+       src="https://user-images.githubusercontent.com/72691037/179143225-30c28d6e-9368-4510-9681-2feeac3e31c1.png" 
+       width=750px>
+</picture>
+
+- Multi-AZ:
+  - Failover in case of AZ outage (high availability)
+  - Data is only read/written to the main database
+  - Can only have 1 other AZ as failover
+<picture>
+  <img alt="Read Replicas" 
+       src="https://user-images.githubusercontent.com/72691037/179143335-ef91bb3d-00b4-49fb-9635-1314ccbdaee5.png" 
+       width=750px>
+</picture>
+
+- Multi-Region (Read Replicas)
+  - Disaster recovery in case of region issue
+  - Local performance for global reads
+  - Replication cost
+<picture>
+  <img alt="Read Replicas" 
+       src="https://user-images.githubusercontent.com/72691037/179143455-d80009c5-988e-49da-8dfb-535305c2b044.png" 
+       width=750px>
+</picture>
