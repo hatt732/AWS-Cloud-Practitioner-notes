@@ -236,3 +236,16 @@ https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services
        src="https://user-images.githubusercontent.com/72691037/179143455-d80009c5-988e-49da-8dfb-535305c2b044.png" 
        width=750px>
 </picture>
+
+## Amazon ElastiCache
+- The same way RDS is to get managed Relational Databases…
+- ElastiCache is to get managed Redis or Memcached
+- Caches are in-memory databases with high performance, low latency
+- Helps reduce load off databases for read intensive workloads
+- AWS takes care of OS maintenance / patching, optimizations, setup, configuration, monitoring, failure recovery and backups
+<picture>
+  <img alt="Multi-AZ" 
+       src="https://user-images.githubusercontent.com/72691037/179144195-196fa322-401e-4ea2-ac32-683bd66517d0.png" 
+       width=750px>
+</picture>
+
