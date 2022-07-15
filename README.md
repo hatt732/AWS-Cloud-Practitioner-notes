@@ -202,7 +202,7 @@ https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services
 ### RDS Solution Architecture
 <picture>
   <img alt="RDS Solution Architecture" 
-       src="https://user-images.githubusercontent.com/72691037/179142656-b1327907-bdee-4f8b-9143-e9cd24a04459.png" 
+       src="https://user-images.githubusercontent.com/72691037/179143715-82bfe48c-c22e-4b2b-b79e-ee56ea05cfbe.png" 
        width=750px>
 </picture>
 
@@ -214,7 +214,7 @@ https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services
 <picture>
   <img alt="Read Replicas" 
        src="https://user-images.githubusercontent.com/72691037/179143225-30c28d6e-9368-4510-9681-2feeac3e31c1.png" 
-       width=750px>
+       width=400px>
 </picture>
 
 - Multi-AZ:
@@ -222,9 +222,9 @@ https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services
   - Data is only read/written to the main database
   - Can only have 1 other AZ as failover
 <picture>
-  <img alt="Read Replicas" 
+  <img alt="Multi-AZ" 
        src="https://user-images.githubusercontent.com/72691037/179143335-ef91bb3d-00b4-49fb-9635-1314ccbdaee5.png" 
-       width=750px>
+       width=400px>
 </picture>
 
 - Multi-Region (Read Replicas)
@@ -232,7 +232,7 @@ https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services
   - Local performance for global reads
   - Replication cost
 <picture>
-  <img alt="Read Replicas" 
+  <img alt="Multi-Region (Read Replicas)" 
        src="https://user-images.githubusercontent.com/72691037/179143455-d80009c5-988e-49da-8dfb-535305c2b044.png" 
        width=750px>
 </picture>
