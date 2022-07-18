@@ -295,3 +295,11 @@ https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services
 > + Ensure we have a minimum and a maximum number of machines running
 > + Automatically register new instances to a load balancer
 > + Replace unhealthy instances
+
+<picture>
+  <img alt="Auto Scaling Group" 
+       src="https://user-images.githubusercontent.com/87024662/179499165-cc01d55f-862c-41d5-954c-9744a941d776.png" 
+       width=750px>
+</picture>
+
+
