@@ -278,7 +278,7 @@ https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services
 
 > Load balance across multiple Amazon EC2 instances at the request level and the connection level.
 
-## Comparisons
+## Load Balancer Comparisons
 
 | Feature | Application Load Balancer | Network Load Balancer | Gateway Load Balancer | Classic Load Balancer |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
