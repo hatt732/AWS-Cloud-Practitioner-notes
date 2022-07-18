@@ -274,9 +274,6 @@ https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services
 
 ## Network Load Balancer
 
-<picture>
-  <img alt="Multi-AZ" 
-       src="https://d1.awsstatic.com/Digital%20Marketing/House/1up/products/elb/Product-Page-Diagram_Elastic-Load-Balancing_NLB_HIW%402x.2f8ded8b565042980c4ad5f8ec57d6b2fafe54ba.png" 
-       width=750px>
-</picture>
+![Network Load Balancer](https://d1.awsstatic.com/Digital%20Marketing/House/1up/products/elb/Product-Page-Diagram_Elastic-Load-Balancing_NLB_HIW%402x.2f8ded8b565042980c4ad5f8ec57d6b2fafe54ba.png "Network Load Balancer")
+
 
