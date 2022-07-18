@@ -287,3 +287,11 @@ https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services
 | Terminates flow/proxy behavior | Yes | Yes | No | Yes |
 | Protocol listeners | HTTP, HTTPS, gRPC | TCP, UDP, TLS | IP | TCP, SSL/TLS, HTTP, HTTPS |
 | Reachable via | VIP | VIP | Route table entry |  
+
+# Auto Scaling Group
+> An Auto Scaling group contains a collection of EC2 instances that are treated as a logical grouping for the purposes of automatic scaling and management
+> + Scale out (add EC2 instances) to match an increased load
+> + Scale in (remove EC2 instances) to match a decreased load
+> + Ensure we have a minimum and a maximum number of machines running
+> + Automatically register new instances to a load balancer
+> + Replace unhealthy instances
