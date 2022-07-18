@@ -258,22 +258,32 @@ https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services
 
 ## Application Load Balancer
 
-<picture>
-  <img alt="Multi-AZ" 
-       src="https://d1.awsstatic.com/Digital%20Marketing/House/1up/products/elb/Product-Page-Diagram_Elastic-Load-Balancing_ALB_HIW%402x.cb3ce6cfd5dd549c99645ed51eef9e8be8a27aa3.png" 
-       width=750px>
-</picture>
+> Load balance HTTP and HTTPS traffic with advanced request routing targeted at the delivery of modern applications.
+
+![Application Load Balancer](https://d1.awsstatic.com/Digital%20Marketing/House/1up/products/elb/Product-Page-Diagram_Elastic-Load-Balancing_ALB_HIW%402x.cb3ce6cfd5dd549c99645ed51eef9e8be8a27aa3.png "Application Load Balancer")
 
 ## Gateway Load Balancer
 
-<picture>
-  <img alt="Multi-AZ" 
-       src="https://d1.awsstatic.com/Digital%20Marketing/House/1up/products/elb/Product-Page-Diagram_Elastic-Load-Balancing_GWLB_HIW%402x.58547db68b537b4aa4b0cdf7e593a6415d588a09.png" 
-       width=750px>
-</picture>
+> Deploy, scale, and run third-party virtual appliances
+
+![Gateway Load Balancer](https://d1.awsstatic.com/Digital%20Marketing/House/1up/products/elb/Product-Page-Diagram_Elastic-Load-Balancing_GWLB_HIW%402x.58547db68b537b4aa4b0cdf7e593a6415d588a09.png "Gateway Load Balancer")
 
 ## Network Load Balancer
 
+> Load balance Transmission Control Protocol, User Datagram Protocol, and Transport Layer Security traffic with high performance.
+
 ![Network Load Balancer](https://d1.awsstatic.com/Digital%20Marketing/House/1up/products/elb/Product-Page-Diagram_Elastic-Load-Balancing_NLB_HIW%402x.2f8ded8b565042980c4ad5f8ec57d6b2fafe54ba.png "Network Load Balancer")
+
+## Classic Load Balancer
+
+> Load balance across multiple Amazon EC2 instances at the request level and the connection level.
+
+
+Feature|Application Load Balancer|Network Load Balancer|Gateway Load Balancer|Classic Load Balancer
+Load Balancer type|Layer 7|Layer 4|Layer 3 Gateway + Layer 4 Load Balancing|Layer 4/7
+Target type|IP, Instance, Lambda|IP, Instance, Application Load Balancer|IP, Instance| 
+Terminates flow/proxy behavior|Yes|Yes|No|Yes
+Protocol listeners|HTTP, HTTPS, gRPC|TCP, UDP, TLS|IP|TCP, SSL/TLS, HTTP, HTTPS
+Reachable via|VIP|VIP|Route table entry| 
 
 
