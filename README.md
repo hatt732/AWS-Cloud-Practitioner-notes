@@ -185,6 +185,8 @@ https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services
 
 # Database Section
 
+![image](https://user-images.githubusercontent.com/87024662/179474849-7ef11809-87e1-462a-8426-082b753868a7.png)
+
 
 ## Databases & Shared Responsibility on AWS
 - AWS offers use to manage different databases
@@ -246,6 +248,35 @@ https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services
 <picture>
   <img alt="Multi-AZ" 
        src="https://user-images.githubusercontent.com/72691037/179144195-196fa322-401e-4ea2-ac32-683bd66517d0.png" 
+       width=750px>
+</picture>
+
+
+# Elastic Load Balancing (ELB)
+
+> Elastic Load Balancing (ELB) automatically distributes incoming application traffic across multiple targets and virtual appliances in one or more Availability Zones (AZs).
+
+## Application Load Balancer
+
+<picture>
+  <img alt="Multi-AZ" 
+       src="https://d1.awsstatic.com/Digital%20Marketing/House/1up/products/elb/Product-Page-Diagram_Elastic-Load-Balancing_ALB_HIW%402x.cb3ce6cfd5dd549c99645ed51eef9e8be8a27aa3.png" 
+       width=750px>
+</picture>
+
+## Gateway Load Balancer
+
+<picture>
+  <img alt="Multi-AZ" 
+       src="https://d1.awsstatic.com/Digital%20Marketing/House/1up/products/elb/Product-Page-Diagram_Elastic-Load-Balancing_GWLB_HIW%402x.58547db68b537b4aa4b0cdf7e593a6415d588a09.png" 
+       width=750px>
+</picture>
+
+## Network Load Balancer
+
+<picture>
+  <img alt="Multi-AZ" 
+       src="https://d1.awsstatic.com/Digital%20Marketing/House/1up/products/elb/Product-Page-Diagram_Elastic-Load-Balancing_NLB_HIW%402x.2f8ded8b565042980c4ad5f8ec57d6b2fafe54ba.png" 
        width=750px>
 </picture>
 
