@@ -279,11 +279,11 @@ https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services
 > Load balance across multiple Amazon EC2 instances at the request level and the connection level.
 
 
-Feature|Application Load Balancer|Network Load Balancer|Gateway Load Balancer|Classic Load Balancer
-Load Balancer type|Layer 7|Layer 4|Layer 3 Gateway + Layer 4 Load Balancing|Layer 4/7
-Target type|IP, Instance, Lambda|IP, Instance, Application Load Balancer|IP, Instance| 
-Terminates flow/proxy behavior|Yes|Yes|No|Yes
-Protocol listeners|HTTP, HTTPS, gRPC|TCP, UDP, TLS|IP|TCP, SSL/TLS, HTTP, HTTPS
-Reachable via|VIP|VIP|Route table entry| 
+| Feature | Application Load Balancer | Network Load Balancer | Gateway Load Balancer | Classic Load Balancer |
+| Load Balancer type | Layer 7 | Layer 4 | Layer 3 Gateway + Layer 4 Load Balancing | Layer 4/7 |
+| Target type | IP, Instance, Lambda | IP, Instance, Application Load Balancer | IP, Instance |   |
+| Terminates flow/proxy behavior | Yes | Yes | No | Yes |
+| Protocol listeners | HTTP, HTTPS, gRPC | TCP, UDP, TLS | IP | TCP, SSL/TLS, HTTP, HTTPS |
+| Reachable via | VIP | VIP | Route table entry |  
 
 
