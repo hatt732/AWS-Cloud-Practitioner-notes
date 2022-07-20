@@ -302,4 +302,20 @@ https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services
        width=750px>
 </picture>
 
+# Simple Storage Service - S3
+
+> Object storage built to retrieve any amount of data from anywhere
+
+![Simple Storage Service](https://d1.awsstatic.com/s3-pdp-redesign/product-page-diagram_Amazon-S3_HIW.cf4c2bd7aa02f1fe77be8aa120393993e08ac86d.png "Simple Storage Service")
+
+## S3 Access Points
+
+> Easily manage access for shared data sets on S3
+
+- Large shared data sets
+- Copy data securely
+- Restrict access to VPC
+- Test new access policies
+- Limit access to specific account IDs
+- Provide a unique name
 
