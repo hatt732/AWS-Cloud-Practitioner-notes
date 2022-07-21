@@ -197,9 +197,18 @@ https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services
   - Monitoring, alerting
 - Note: many databases technologies could be run on EC2, but you must handle yourself the resiliency, backup, patching, high availability, fault tolerance, scaling… 
 
-## AWS RDS
-- RDS stands for Relational Database Service
-- It’s a managed DB service for DB use SQL as a query language.
+## Amazon Aurora
+> Unparalleled high performance, global scale, MySQL and PostgreSQL compatibility
+
+![Amazon Aurora](https://d1.awsstatic.com/products/Aurora/Product-Page-Diagram_Amazon-Aurora_How-it-Works%402x.ecab38ab6a966e76d2e14c555ce1481c5e2d888c.png "Amazon Aurora")
+
+
+
+## AWS Relational Database Service (RDS)
+> Collection of managed services that makes it simple to set up, operate, and scale databases in the cloud
+> Choose from seven popular engines — Amazon Aurora with MySQL compatibility, Amazon Aurora with PostgreSQL compatibility, MySQL, MariaDB, PostgreSQL, Oracle, and SQL Server 
+
+![Amazon RDS](https://d1.awsstatic.com/video-thumbs/RDS/product-page-diagram_Amazon-RDS-Regular-Deployment_HIW-V2%402x.48d9e15ae53221e362d8917805c3ddee68a107eb.png "Amazon RDS")
 
 ### RDS Solution Architecture
 <picture>
@@ -239,6 +248,18 @@ https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services
        width=750px>
 </picture>
 
+## Amazon Redshift
+
+> Uses SQL to analyze structured and semi-structured data across data warehouses, operational databases, and data lakes, using AWS-designed hardware and machine learning to deliver the best price performance at any scale.
+
+![Amazon Redshift](https://d1.awsstatic.com/reInvent/re21-pdp-tier1/redshift-serverless/Amazon-Redshift-HIW%402x.a13736c9b0b9eec860f14f0dc7f4d40e47736a5b.png "Amazon Redshift")
+
+## Amazon DynamoDB
+
+> Fully managed, serverless, key-value NoSQL database designed to run high-performance applications at any scale. 
+
+![Amazon DynamoDB](https://d1.awsstatic.com/product-page-diagram_Amazon-DynamoDBa%402x.1f8b0cf0312dda72ce9433d94f9c2a1b92684381.png "Amazon DynamoDB")
+
 ## Amazon ElastiCache
 - The same way RDS is to get managed Relational Databases…
 - ElastiCache is to get managed Redis or Memcached
@@ -257,6 +278,15 @@ https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services
        src="https://user-images.githubusercontent.com/87024662/180166698-7d0bcbe5-b59e-40cb-89a8-5dfe0a3f01bf.png" 
        width=750px>
 </picture>
+
+## OLAP vs. OLTP
+
+> Online analytical processing (OLAP) is a system for performing multi-dimensional analysis at high speeds on large volumes of data.
+> Online transactional processing (OLTP) enables the real-time execution of large numbers of database transactions by large numbers of people, typically over the Internet.
+
+> OLAP is optimized for conducting complex data analysis for smarter decision-making. OLAP systems are designed for use by data scientists, business analysts and knowledge workers, and they support business intelligence (BI), data mining and other decision support applications.
+
+> OLTP, on the other hand, is optimized for processing a massive number of transactions. OLTP systems are designed for use by frontline workers (e.g., cashiers, bank tellers, hotel desk clerks) or for customer self-service applications (e.g., online banking, e-commerce, travel reservations).
 
 # Elastic Load Balancing (ELB)
 
@@ -325,3 +355,10 @@ https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services
 - Limit access to specific account IDs
 - Provide a unique name
 
+| Feature | Application Load Balancer | Network Load Balancer | Gateway Load Balancer | Classic Load Balancer |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| Load Balancer type | Layer 7 | Layer 4 | Layer 3 Gateway + Layer 4 Load Balancing | Layer 4/7 |
+| Target type | IP, Instance, Lambda | IP, Instance, Application Load Balancer | IP, Instance |   |
+| Terminates flow/proxy behavior | Yes | Yes | No | Yes |
+| Protocol listeners | HTTP, HTTPS, gRPC | TCP, UDP, TLS | IP | TCP, SSL/TLS, HTTP, HTTPS |
+| Reachable via | VIP | VIP | Route table entry |  
