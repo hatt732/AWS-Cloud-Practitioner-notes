@@ -281,12 +281,16 @@ https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services
 
 ## OLAP vs. OLTP
 
-> Online analytical processing (OLAP) is a system for performing multi-dimensional analysis at high speeds on large volumes of data.
-> Online transactional processing (OLTP) enables the real-time execution of large numbers of database transactions by large numbers of people, typically over the Internet.
+> Online analytical processing (OLAP) : performing multi-dimensional analysis large volumes of data,  typically from a data warehouse, data mart.
 
 > OLAP is optimized for conducting complex data analysis for smarter decision-making. OLAP systems are designed for use by data scientists, business analysts and knowledge workers, and they support business intelligence (BI), data mining and other decision support applications.
 
+> Online transactional processing (OLTP) : real-time execution database transactions typically over the Internet.
+
 > OLTP, on the other hand, is optimized for processing a massive number of transactions. OLTP systems are designed for use by frontline workers (e.g., cashiers, bank tellers, hotel desk clerks) or for customer self-service applications (e.g., online banking, e-commerce, travel reservations).
+
+![image](https://user-images.githubusercontent.com/87024662/180187270-28f09f2f-8aaa-4478-862f-3cdd0fb8f680.png)
+
 
 # Elastic Load Balancing (ELB)
 
