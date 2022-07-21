@@ -245,12 +245,18 @@ https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services
 - Caches are in-memory databases with high performance, low latency
 - Helps reduce load off databases for read intensive workloads
 - AWS takes care of OS maintenance / patching, optimizations, setup, configuration, monitoring, failure recovery and backups
+
 <picture>
-  <img alt="Multi-AZ" 
+  <img alt="Amazon ElastiCache" 
        src="https://user-images.githubusercontent.com/72691037/179144195-196fa322-401e-4ea2-ac32-683bd66517d0.png" 
        width=750px>
 </picture>
 
+<picture>
+  <img alt="Amazon ElastiCache 2" 
+       src="https://user-images.githubusercontent.com/87024662/180166698-7d0bcbe5-b59e-40cb-89a8-5dfe0a3f01bf.png" 
+       width=750px>
+</picture>
 
 # Elastic Load Balancing (ELB)
 
